@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 });
 
 server.on("request", app);
-server.listen(8080, () => console.log("ws running on 8080"));
+server.listen(3000, () => console.log("ws running on 8080"));
 
 /*web sockets*/
 const ws_server = new WebSocketServer({ server });
