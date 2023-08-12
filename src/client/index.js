@@ -4,8 +4,3 @@ ws.onerror = (e) => {
   console.log(e);
 };
 ws.onmessage = (e) => console.log(e.data);
-setTimeout(() => {
-  console.log("4 seconds have passed");
-  ws.send("closing 🤣🤣🤣🤣🤣 ");
-  ws.close();
-}, 4000);
